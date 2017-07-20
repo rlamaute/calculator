@@ -5,4 +5,4 @@ def divide(a,b):
     if b == 0:
         return "you can't divide by zero you idiot"
     else:
-        return round(a / float(b), 3)
+        return round(a/b, 3)

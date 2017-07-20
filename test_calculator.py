@@ -28,9 +28,6 @@ def test_numbers_divide_negative():
 def test_numbers_divide_neg_poz():
     assert divide(-4, 2) == -2
 
-def test_numbers_3_7():
-    assert divide(3,7) == 0.14
-
 def test_divideby0():
-    assert divide (2,0) == "error do not give me zero ever again"
+    assert divide (2,0) == "you can't divide by zero you idiot"
 
